@@ -26,3 +26,28 @@
 /* Final white and blue visual layer */
 :root{--blue:#2563eb;--teal:#0f766e;--ink:#102a43;--muted:#64748b;--line:#dbe5f0}
 body{background:#fbfdff;color:var(--ink);font-family:'Plus Jakarta Sans',Arial,sans-serif}.shell{background:#fbfdff}.sidebar{width:242px;background:#fff;color:var(--ink);border-right:1px solid #e5edf6;padding:24px 14px}.brand{padding-bottom:30px}.brand strong{color:var(--ink)}.brand strong span{color:#2563eb}.brand-mark{background:linear-gradient(135deg,#2563eb,#1d4ed8);box-shadow:0 8px 18px #2563eb2b}nav button{color:#62718a}nav button.active,nav button:hover{background:#eff6ff;color:#1d4ed8;box-shadow:none}header{height:70px;background:#fff;border-bottom-color:#e5edf6;padding:0 40px}.home,.page{max-width:1180px;padding-top:48px}.hero h1{font-size:50px;color:#102a43}.hero h1 em,.feature-text h2 em{color:#2563eb}.hero-art{background:linear-gradient(145deg,#eff6ff,#f0fdfa);box-shadow:inset 0 0 0 1px #dbeafe}.hero-core{background:#2563eb}.primary{background:#2563eb;border-radius:9px;box-shadow:0 8px 18px #2563eb24}.tool-card,.compound-card,.calc-card,.reaction-card,.studio-info,.studio-real-canvas,.calc-nav,.studio-panel,.lesson{border-color:#dbe5f0;background:#fff;box-shadow:0 4px 14px #1e3a5f06}.tool-card:hover,.compound-card:hover{border-color:#c8daf3;box-shadow:0 14px 28px #1e3a5f12}.tool-icon{background:#eff6ff;color:#2563eb}.feature-row{background:linear-gradient(135deg,#f5f9ff,#f0fdfa);border:1px solid #e2edf8}.pill,.tag{background:#eff6ff;color:#2563eb}.page h1{color:#102a43}.about h1{font-size:47px}.periodic .element{border-radius:8px}.element strong{color:#2563eb}.lesson:hover{background:#f8fbff;box-shadow:none}footer{background:#fff;color:#94a3b8;border-top:1px solid #e5edf6;margin-top:20px;padding:24px 45px}
+.about-lanyard-page{min-height:calc(100vh - 94px);display:grid;place-items:center;padding:0;background:#fff}
+.about-lanyard-shell{width:min(100%,760px);height:min(720px,calc(100vh - 100px));margin:auto;background:#fff}
+.chem-lanyard{position:relative;width:100%;height:100%;overflow:hidden;user-select:none;background:#fff}
+.chem-lanyard>button{position:absolute;right:16px;top:16px;z-index:10;border:1px solid #dbe5f0;border-radius:999px;background:#ffffffd9;color:#102a43;padding:9px 15px;font-size:12px;font-weight:700;box-shadow:0 5px 14px #1e3a5f12;backdrop-filter:blur(8px)}
+.chem-lanyard>button:hover{background:#eff6ff}
+.chem-badge-face{width:100%;height:100%;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;padding:18px 18px 20px;background:#fff;color:#102a43;text-align:center}
+.chem-badge-brand{display:flex;align-items:center;gap:7px;margin-bottom:14px;font-size:17px}
+.chem-badge-mark{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#2563eb;color:#fff}
+.chem-badge-photo{width:170px;height:170px;margin-bottom:16px;border:5px solid #eff6ff;border-radius:9px;object-fit:cover;object-position:31% 32%}
+.chem-badge-course{font-size:16px;line-height:1.2;letter-spacing:-.2px}
+.chem-badge-section{margin-top:6px;color:#2563eb;font-size:14px;font-weight:800}
+.chem-badge-face small{margin-top:16px;color:#62718a;font-size:10px;line-height:1.5}
+.chem-badge-credit{display:flex;align-items:baseline;gap:5px;margin-top:auto;padding-top:12px;color:#94a3b8;font-size:8px;letter-spacing:.02em}
+.chem-badge-credit small{margin:0;color:#94a3b8;font-size:8px;letter-spacing:.08em;text-transform:uppercase}
+.chem-badge-credit strong{color:#2563eb;font-size:10px;letter-spacing:.01em}
+.chem-badge-back{justify-content:center;gap:10px}
+.chem-badge-back .chem-badge-mark{width:48px;height:48px;border-radius:14px}
+.chem-badge-back strong{font-size:24px}
+.chem-badge-back span{color:#2563eb;font-size:13px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+.chem-badge-back small{margin-top:18px}
+.chem-badge-back .chem-badge-credit{margin-top:30px}
+.developer-credit{display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border:1px solid #dbe5f0;border-radius:999px;background:#fff;color:#64748b;font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:9px;box-shadow:0 4px 12px #1e3a5f08}
+.developer-credit small{margin:0;color:#94a3b8;font-size:8px;letter-spacing:.08em;text-transform:uppercase}
+.developer-credit strong{color:#2563eb;font-size:10px;font-weight:800}
+@media(max-width:560px){.about-lanyard-page{padding:0 10px}.about-lanyard-shell{height:min(650px,calc(100vh - 90px))}.chem-badge-photo{width:150px;height:150px}}
